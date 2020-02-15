@@ -1,0 +1,109 @@
+body { background-color: #f1f3f4;
+color: #010a43;
+font-family: Tomorrow, monospace;
+font-size: 15px;
+line-height: 1;
+letter-spacing: 0.1px;
+font-weight: 120; 
+
+}
+
+h1,h2,h3,h4 {
+	font-family: Tomorrow;
+	color: #35495e;
+	line-height: 2;
+	border-top: 2px dashed #333333; 
+	border-right: 2px dashed #333333;
+	border-bottom: 2px dashed #333333;
+	border-left:2px dashed #333333;
+	text-transform: uppercase;
+}
+
+h1 {
+	color: #f1f3f4;
+	letter-spacing: 25px;
+	font-size: 40px;
+	font-weight: bold;
+	
+
+
+
+}
+
+
+
+
+h2 {
+   color: #f1f3f4;
+   font-size: 40px;
+   font-weight: bold;
+   
+
+}
+a{
+	color: #5f6caf;
+}
+a:hover {
+	color: purple;
+	font-size: 10px;
+}
+
+#logo {
+	width: 300px;
+}
+
+.img-circle {
+	border-spacing: 40px;
+}
+
+.container {
+	width: 500px;
+	margin:40px auto;
+}
+@media (max-width: 450px) {
+	.container {width: 450px;}
+}
+.card-white {
+	background: #bbe1fa;
+	padding:50px;
+	margin: 50px;
+	box-shadow: 5px 5px 3px #0fabbc;
+	border-radius: 4px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 40px;
+}
+.btn-blue {
+	background-color: #617be3;
+	color: #3e206d;
+	padding: 11px 11px;
+	border-radius: 1px;
+}
+.btn-blue:hoover {
+	background-color: #2a1a5e;
+	color: blue;
+	font-size: 10px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li {
+	display: inline;
+	padding: 15px;
+	font-size: 50px;
+}
+.list-inline i {
+	color: #5f6769
+}
+.list-inline i:hover {
+	color: #2a1a5e;
+	font-size: 45px;
+}
+
+#Introduction p {
+	margin-bottom: 60px;
+	color: #2f416d;
+}
